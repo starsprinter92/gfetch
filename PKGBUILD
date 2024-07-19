@@ -10,7 +10,7 @@ liscense=("custom")
 source=("src/gufetch")
 sha512sums=("SKIP")
 
-package() {
+build() {
   shc -f gufetch
   gcc  gufetch.x.c
   }
