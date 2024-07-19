@@ -11,7 +11,7 @@ source=("src/gufetch")
 sha512sums=("SKIP")
 
 package() {
-  shc -f src/gufetch
+  shc -f gufetch
   gcc  gufetch.x.c
   tar a.out
   }
