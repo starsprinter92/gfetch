@@ -14,3 +14,5 @@ build() {
   shc -f gufetch
   gcc  gufetch.x.c
   }
+package() {
+  tar --zstd -cf src
