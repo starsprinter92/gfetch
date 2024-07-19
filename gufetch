@@ -1,4 +1,4 @@
-#!/bin/fish
+#!/bin/bash
 echo
 echo $USER@$(hostname)
 date
@@ -10,5 +10,3 @@ export memfree="$(grep MemFree /proc/meminfo | sed 's/MemFree/Free Memory/g')"
 echo "  $memtot, $memfree"
 echo "  $XDG_CURRENT_DESKTOP"
 echo "  $(uptime -p)"
-export gpu="$(inxi -G | grep Device-2: | sed 's/Device-2://g' | awk -F 'driver' '{print $1"driver"}' | sed 's/\\[/name: /' | sed 's/^.*: //' | cut -f1 -d"]")"
-echo "󰻑 $gpu"
