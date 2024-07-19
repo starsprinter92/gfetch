@@ -16,3 +16,4 @@ build() {
   }
 package() {
   tar --zstd -cf src
+}
