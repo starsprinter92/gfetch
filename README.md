@@ -15,6 +15,9 @@ my fetch script
 # INSTALLATION 
 
 git clone https://github.com/starsprinter92/gfetch
+
 cd gfetch
+
 chmod +x gfetch
+
 sudo mv gfetch /bin
