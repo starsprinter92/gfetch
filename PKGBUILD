@@ -15,7 +15,6 @@ build() {
   gcc  gufetch.x.c
   }
 package() {
-  rm $source/gufetch
-  mv $source/a.out $source/gufetch
-  tar --zstd -cf $source/gufetch
+  mv $source ./
+  tar --zstd -cf ./a.out
 }
