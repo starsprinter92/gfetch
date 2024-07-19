@@ -9,6 +9,8 @@ my fetch script
  lolcat
  
  figlet
+
+any nerd font
  
  that's it :D
 
