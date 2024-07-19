@@ -7,7 +7,7 @@ depends=('figlet'
 makedepends=('shc')
 pkgrel="1"
 liscense=("custom")
-source=("src")
+source=("src/gufetch")
 sha512sums=("SKIP")
 
 build() {
