@@ -1,6 +1,6 @@
 # gufetch
 
-A fetch script written in fish
+A fetch script written in bash
 
 # REQUIREMENTS:
  
