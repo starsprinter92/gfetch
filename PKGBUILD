@@ -13,5 +13,4 @@ sha512sums=("SKIP")
 package() {
   shc -f gufetch
   gcc  gufetch.x.c
-  tar a.out
   }
